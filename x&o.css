@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+}
+
+#gameboard{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.box{
+    background-color: aqua;
+    border:2px solid black;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.message{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+  }
